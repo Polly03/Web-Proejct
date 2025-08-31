@@ -1,0 +1,60 @@
+
+
+/* KOD PRO KOLEČKO */ 
+
+.Background__circle--big::after {
+    content: "";
+    position: absolute;
+    background-color: #ff9301;
+    border-radius: 50%;
+    width: 1500px;
+    height: 1500px;
+    top: -35rem;
+    left: -4rem;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.Background__circle--big {
+    position: relative;
+    z-index: 1;
+}
+
+.Background__circle--small {
+    position: relative;
+    z-index: 1;
+}
+
+.Background__circle--small::after {
+    content: "";
+    position: absolute;
+    background-color: #ff9301;
+    border-radius: 50%;
+    opacity: 50%;
+    width: 35px;
+    height: 35px;
+    top: -0.4rem;
+    left: -0.4rem;
+    z-index: -1;
+}
+
+.Background__circle--mid {
+    position: relative;
+    z-index: 1;
+}
+
+.Background__circle--mid::after {
+    content: "";
+    position: absolute;
+    background-color: #ff9301;
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    top: -4rem;
+    left: -4rem;
+    z-index: -1;
+}
+
+
+
+/* KONEC KODU PRO KOLEČKO */
